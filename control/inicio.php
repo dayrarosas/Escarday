@@ -82,9 +82,10 @@ $resultado = mysqli_query($conexion, $sql);
             </tbody>
         </table>
     <?php else: ?>
-        <p>No hay alumnos registrados</p>
+        <p>No se encuentran alumnos registrados</p>
     <?php endif; ?>
 </body>
 </html>
 
 <?php mysqli_close($conexion); ?>
+
